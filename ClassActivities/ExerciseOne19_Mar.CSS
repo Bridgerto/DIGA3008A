@@ -1,0 +1,35 @@
+/*Exercise 1*/
+h1{
+    color: pink;
+    font-size: 36px;
+}
+
+p{
+    color: blue;
+    font-size: 18px;
+}
+
+ul{
+   color: orange; 
+   list-style-type: square;
+}
+
+
+/*Exercise 2 - Step 1 */  
+.navlinks {
+    list-style-type: none;
+    font-family:'Courier New';
+    background-color:aquamarine; /*If this line went to step 2, it would just colour the words*/
+
+    
+}
+
+/*Exercise 2 - Step 2 */  
+.navlinks a{
+    color: green;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+/*Flex box*/
