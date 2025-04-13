@@ -1,5 +1,15 @@
+/*DIDOT FONT*/
+.gfs-didot-regular {
+    font-family: "GFS Didot", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+/*AVENIR FONT*/
+  
+
 body{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  /*Body text: Avenir*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  /* Body text: Avenir*/
     color:#14181A;
     background: #f4f4f4 ;/*url(Images/TemporaryBackground.jpg) no-repeat*/
     background-size: cover;
@@ -17,12 +27,14 @@ width: 100%; /*meaning full-lenght from left to right*/
 
 .logo{
     color: #14181A;
-    font-size: 35px;
+    font-family: "GFS Didot", serif;
+    font-size: 20px;
     font-weight: bold;
     line-height: 80px; /*space between the line*/
-    /*background-color: white;*/
-    margin: 0 30px;
-    /*padding: 10px 30px;*/
+    margin: 160px 20px;
+    /*padding: 90px 30px;*/
+    background-color: white;
+
 }
 
 nav ul{
@@ -32,11 +44,12 @@ nav ul{
 
 nav ul li{
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 
 nav ul li a {
+    font-family: "GFS Didot", serif;
     font-size: 20px;
     color: #14181A;
     text-decoration: none;
@@ -50,11 +63,11 @@ a.active{
 }
 
 
-#logo{
+/*#logo{
     width: 30px;
     height: 30px;
     margin: 0 0 5px 10px; 
-}
+}*/
 
 .page-content{
     flex: 1;
@@ -64,4 +77,6 @@ a.active{
     background: #B4AEA2;
     color: #14181A;
     align-items: flex-end;
+    text-align: center;
 }
+
