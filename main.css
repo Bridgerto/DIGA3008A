@@ -1,20 +1,20 @@
 body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  /*Body text: Avenir*/
-    color: azure;
-    background: url(TemporaryBackground.jpg) no-repeat;
+    color:#14181A;
+    background: #f4f4f4 ;/*url(Images/TemporaryBackground.jpg) no-repeat*/
     background-size: cover;
     height: 100vh;  /*vh - Viewing height*/
 }
 
 nav{
-background: rgba(227, 172, 172, 0.7) ;
-backdrop-filter: blur(5px);
+background: #B4AEA2 ;
+/*backdrop-filter: blur(5px);*/
 height: 60px;
 width: 100%; /*meaning full-lenght from left to right*/
 }
 
 .logo{
-    color: rgb(248, 73, 73);
+    color: #14181A;
     font-size: 35px;
     font-weight: bold;
     line-height: 80px; /*space between the line*/
@@ -36,13 +36,13 @@ nav ul li{
 
 nav ul li a {
     font-size: 20px;
-    color: brown;
+    color: #14181A;
     text-decoration: none;
 }
 
 a.active{
-    background: white;
-    color: black; /*font colour*/
+    background:#f4f4f4;
+    color: #14181A; /*font colour*/
     padding: 10px 30px;
     border-radius: 50px;
 }
@@ -56,5 +56,7 @@ a.active{
 
 
 .page-footer{
-    background: blueviolet;
+    background: #B4AEA2;
+    color: #14181A;
+    align-items: flex-end;
 }
