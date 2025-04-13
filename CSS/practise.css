@@ -1,0 +1,8 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  /*Body text: Avenir*/
+    color:#14181A;
+    background: #f4f4f4 ;/*url(Images/TemporaryBackground.jpg) no-repeat*/
+    background-size: cover;
+    height: 100vh;  /*vh - Viewing height*/
+    display: flex;
+}
