@@ -1,18 +1,81 @@
 .page-header{
-    font-size: 20px; 
+    font-size: 90px; 
+    padding: 0px 0px;
 }
 
-main{
 
-}
 .container1{
-    display: flex;
-    flex-direction: column;
     background-color: blue;
+    text-align: center;
+    border: 3px saddlebrown;
+    /*margin-bottom: 1cm;*/
+    padding-bottom: 40px;
+    padding-top: 60px;
 }
+
+.webpage-des{
+    font-family: 'Courier New', Courier, monospace; /*Avenir font*/
+    color: #14181A;
+    font-size: 10px;
+    padding: 20px 0px;
+}
+
+.searchbar{
+    padding: 15px 300px;
+    font-size: 17px;
+    border: 3px solid palevioletred;
+    border-right: none;
+    border-radius: 20px 0px 0px 20px;
+
+}
+
+.search-icon{
+    padding: 15px 10px;
+    font-size: 16px;
+    background-color: #f11fbd;
+    color: white;
+    border: 2px solid greenyellow;
+    border-left: none;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer; }
 
 .container2{
     display: flex;
     flex-direction: row;
     background-color: bisque;
+    justify-content: center;
+    border: 3px solid #f11fbd;
+    flex-wrap: wrap;
+}
+
+
+/*.blog-page{
+width: 50rem ;
+height: 50rem ;
+background: gold ;
+margin: 3rem;
+}*/
+
+.blog-tab{
+ width: 250px;
+ /*height: 200px;*/
+/* border-radius: 10px;*/
+ border-radius: 100px 100px 0px 0px;
+ overflow: hidden;
+ background-color: yellow;
+ color:#f11fbd;
+ margin: 20px;
+ box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+ transition: transform 0.3s ease;
+}
+
+.blog-tab:hover{
+    transform: scale(1.03);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.blog-tab img{
+    width: 100px;
+    height: 180px;
+    object-fit: cover;
 }

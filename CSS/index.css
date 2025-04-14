@@ -1,18 +1,52 @@
-
-  .container1{
-    display: flex;
-    flex-direction: column;
-    /*flex-grow: 500px;*/
-    height: 100%;
-    border: 3px solid salmon;
-    background-color: blueviolet;
-}
-
 .page-header{
     font-size: 120px;;
 }
 
+.container1{
+    display: flex;
+    flex-direction: column;
+    /*flex-grow: 500px;*/
+    height: 100vh;
+    margin: 30px 30px 30px 30px;
+    border: 3px solid salmon;
+    background-color: rgba(137, 43, 226, 0.186);
+    /*backdrop-filter: blur(90px);*/
+    justify-content:center;
+    text-align: center;
+}
+
+/*Send user to section 2 of main homepage*/
+.web-tabs{
+    margin-left: 700px;
+    margin-right: 700px;
+    padding: 15px 1px;
+    font-size: 16px;
+    background-color: #f11fbd;
+    color: white;
+    border: 2px solid greenyellow;
+    border-radius: 20px 20px 20px 20px;
+    cursor: pointer; 
+}
+
+/*main{ 
+    background: url(/Images/TemporaryBackground.jpg) no-repeat;
+}*/
+
+
 .container2{
     display: flex;
     flex-direction: row;
+    height: 100vh;
+    justify-content: center;
+    border: 3px solid #f11fbd;
+    flex-wrap: wrap;
 }
+
+.web-tab{
+    width: 30rem;
+    height: 20rem;
+    background:  gold;
+    margin: 3rem;
+}
+
+

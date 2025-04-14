@@ -16,6 +16,8 @@ body{
     height: 100vh;  /*vh - Viewing height*/
     display: flex;
     flex-direction: column;
+    overflow: auto;
+    scroll-behavior: smooth;
 }
 
 nav{
