@@ -11,6 +11,7 @@
     <!--Styling-->
     <link rel="stylesheet" href="/normalise.css" />
     <link rel="stylesheet" href="/main.css" />
+    <link rel="stylesheet" href="/CSS/Blogs.css" />
   </head>
 
   <body>
@@ -35,14 +36,28 @@
       </ul>
     </nav>
 
-    <!--<header class="page-header"></header>
-        <h1>WEEK 1 - BLOGS</h1> -->
-
     <main class="page-content">
-      <section>
-        <h1>Article title</h1>
-        <h2>Week 1 Blog</h2>
+      <section class="header">
+        <section class="img-container">
+          <img
+            class="img1"
+            src="/Images/TemporaryBackground.jpg"
+            alt="Some image"
+          />
+          <img
+            class="img2"
+            src="/Images/TemporaryBackground.jpg"
+            alt="Some image"
+          />
+        </section>
 
+        <section class="title-container">
+          <h1>Article title</h1>
+          <header class="page-header">Week 1 Blog</header>
+        </section>
+      </section>
+
+      <section class="publication-info">
         <p>
           Published by:
           <a class="p-author h-card" href="../ProfileSection/ProfilePage.html"
@@ -50,11 +65,14 @@
           >
         </p>
 
-        Posted:
-        <time class="dt-published" datetime="2025-02-18">
-          18<sup>th</sup>, February, 2025 - Johannesburg, South Africa</time
-        >
-        <!--<p>class="p-location" >Johannesburg, South Africa</p>-->
+        <p>
+          Posted:
+          <time class="dt-published" datetime="2025-02-18">
+            18<sup>th</sup>, February, 2025 - Johannesburg, South Africa</time
+          >
+          <!--<p>class="p-location" >Johannesburg, South Africa</p>-->
+          >
+        </p>
       </section>
 
       <article>
@@ -137,7 +155,7 @@
         </p>
       </article>
 
-      <section>
+      <section class="bibliography">
         <p>REFERENCES:</p>
         <p>
           BERNERS-LEE, T. et al. 1994. The World-Wide Web, Communications of the
@@ -158,11 +176,12 @@
         </p>
       </section>
 
-      <section>
+      <section class="web-tabs">
         <!--Previous post-->
-        <p><a href="./Week7Blog.html"> PREVIOUS POST</a></p>
+        <button><a href="./Week7Blog.html">PREVIOUS POST</a></button>
+
         <!--Next post-->
-        <p><a href="./Week2Blog.html"> NEXT POST</a></p>
+        <button><a href="./Week2Blog.html">NEXT POST</a></button>
       </section>
     </main>
 

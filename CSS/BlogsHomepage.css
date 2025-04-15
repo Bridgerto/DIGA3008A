@@ -75,7 +75,25 @@ margin: 3rem;
 }
 
 .blog-tab img{
-    width: 100px;
+    width: 100%;
     height: 180px;
     object-fit: cover;
+}
+
+.blog-info{
+    padding: 15px;
+    background: white;
+    color: orangered;
+}
+
+.blog-info .blog-week{
+    font-size: 30px;
+    color: hotpink;
+}
+
+.blog-info a{
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+    color: aquamarine;
 }
