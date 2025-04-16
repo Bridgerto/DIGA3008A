@@ -5,10 +5,8 @@
 
 
 .container1{
-    background-color: blue;
+    background-color: #F4F4F4 ;
     text-align: center;
-    border: 3px saddlebrown;
-    /*margin-bottom: 1cm;*/
     padding-bottom: 40px;
     padding-top: 60px;
 }
@@ -23,7 +21,7 @@
 .searchbar{
     padding: 15px 300px;
     font-size: 17px;
-    border: 3px solid palevioletred;
+    border-color: #c2a163;
     border-right: none;
     border-radius: 20px 0px 0px 20px;
 
@@ -31,20 +29,20 @@
 
 .search-icon{
     padding: 15px 10px;
-    font-size: 16px;
-    background-color: #f11fbd;
-    color: white;
-    border: 2px solid greenyellow;
+    font-size: 17px;
+    background-color: #4B4F46;
+    color: #F4F4F4;
+    border-color: #c2a163;
     border-left: none;
     border-radius: 0 20px 20px 0;
-    cursor: pointer; }
+    cursor: pointer; 
+}
 
 .container2{
     display: flex;
     flex-direction: row;
-    background-color: bisque;
+    background-color: #4B4F46;
     justify-content: center;
-    border: 3px solid #f11fbd;
     flex-wrap: wrap;
 }
 
@@ -57,16 +55,17 @@ margin: 3rem;
 }*/
 
 .blog-tab{
- width: 250px;
+ width: 400px;
  /*height: 200px;*/
 /* border-radius: 10px;*/
  border-radius: 100px 100px 0px 0px;
  overflow: hidden;
  background-color: yellow;
  color:#f11fbd;
- margin: 20px;
+ margin: 50px;
  box-shadow: 0 4px 15px rgba(0,0,0,0.4);
  transition: transform 0.3s ease;
+ 
 }
 
 .blog-tab:hover{
@@ -76,13 +75,13 @@ margin: 3rem;
 
 .blog-tab img{
     width: 100%;
-    height: 180px;
+    height: 300px;
     object-fit: cover;
 }
 
 .blog-info{
     padding: 15px;
-    background: white;
+    background: #F4F4F4;
     color: orangered;
 }
 

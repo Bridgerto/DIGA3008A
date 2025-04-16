@@ -3,10 +3,12 @@
 }
 
 .container1{
-    background: url(/Images/TemporaryBackground.jpg);
+    /*background: url(/Images/NeutralBackground02.jpg);*/
+    /*background-color: #dfd4c1;*/
+    background-color: #14181A;
     background-size: cover;
     height: 100vh;
-    border: 3px solid salmon;
+    padding-top: 120px;
 }
 
 
@@ -26,9 +28,8 @@
     justify-content: center;
     text-align: center;
     color:aliceblue;
-    border: 3px solid rgb(159, 250, 114);
-    background-color: #461ff12b; /*backdrop-filter: blur(3px);*/
-    margin: 80px 60px 20px;
+    border: 7px solid rgb(136, 117, 91);
+    margin: 0px 60px 20px;
     height: 80%;
 
 
@@ -39,37 +40,32 @@
     margin-right: 700px;
     padding: 15px 1px;
     font-size: 16px;
-    background-color: #f11fbd;
-    color: white;
-    border: 2px solid greenyellow;
+    background-color: #B4AEA2;
+    border-color: #c2a163;
     border-radius: 20px 20px 20px 20px;
+    color: #14181A;
     cursor: pointer; 
 }
-
-/*main{ 
-    background: url(/Images/TemporaryBackground.jpg) no-repeat;
-}*/
-
 
 .container2{
     min-height: 100vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    border: 3px solid #f11fbd;
     flex-wrap: wrap;
+    background-color: #F4F4F4;
 }
 
 .web-tab{
     width: 500px;
+    background-color: #F4F4F4; 
     border-radius: 100px 100px 0px 0px;
     overflow: hidden;
-    background-color:  gold;
-    color: blue;
     margin: 3rem;
     box-shadow: 0 4px 15px rgba(0,0,0,0.4);
     transition: transform 0.3s ease;
-    text-align: center; 
+    text-align: center;
+    
 }
 
 .web-tab:hover{
