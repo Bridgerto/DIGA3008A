@@ -1,5 +1,5 @@
 .page-header{
-    font-size: 120px;;
+    font-size: 120px;
 }
 
 .container1{
@@ -12,16 +12,6 @@
 }
 
 
-/*.img-container{
-    display: flex;
-    flex-direction: row;
-    height: 100vh;
-    border: 3px solid salmon;
-    justify-content:center;
-    text-align: center;
-    width: 100%;
-    background-size: cover;
-}*/
 .welcome-page{
     display: flex;
     flex-direction: column;
@@ -36,9 +26,12 @@
 }
 /*Button sends user to section 2 of main homepage*/
 .web-tabs {
-    margin-left: 700px;
-    margin-right: 700px;
+    /*margin-left: 680px;
+    margin-right: 700px;*/
+    margin: auto;
     padding: 15px 1px;
+    width: 200px;
+    height: 60px;
     font-size: 16px;
     background-color: #B4AEA2;
     border-color: #c2a163;
