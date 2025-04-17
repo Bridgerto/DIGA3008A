@@ -1,0 +1,66 @@
+.page-header{
+    margin: 30px 0 30px 0;
+    font-size: 60px;
+    text-align: center;
+}
+
+.essay-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.essay-title{
+    width: 500px;
+    height: 600px;
+    border-radius: 100px;
+    overflow: hidden;
+    background-color: #4B4F46;
+    color: #F4F4F4;
+    margin: 50px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+    transition: transform 0.3s ease;
+    text-align: center;
+    align-content: center;
+}
+
+.essay-title:hover{
+    width: 600px;
+    height: 700px;
+    border-radius: 50px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.6);
+    transition: transform 0.3s ease;
+}
+
+.essay-title h1{
+    font-size: 50px;
+
+}
+
+.essay-synopsis p{
+    margin: 40px 20px 60px 20px;
+
+}
+
+.essay-synopsis a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #14181A;
+}
+.essay-synopsis button{
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    border-radius: 20px ;
+    border-color: #c2a163 ;
+    background: #B4AEA2 ;
+}
+
+.essay-synopsis button:hover{
+    background: #14181A ;
+}
+
+.essay-synopsis button:hover a{
+    color: #B4AEA2 ;
+}
