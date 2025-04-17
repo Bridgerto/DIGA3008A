@@ -1,5 +1,6 @@
 .page-header{
     font-size: 120px;
+    margin: auto;
 }
 
 .container1{
@@ -21,8 +22,6 @@
     border: 7px solid rgb(136, 117, 91);
     margin: 0px 60px 20px;
     height: 80%;
-
-
 }
 /*Button sends user to section 2 of main homepage*/
 .web-tabs {
@@ -38,6 +37,20 @@
     border-radius: 20px 20px 20px 20px;
     color: #14181A;
     cursor: pointer; 
+}
+
+.web-tabs a{
+    text-decoration: none;
+    color:#14181A;
+    font-size: 20px;
+}
+
+.web-tabs:hover{
+    background-color: #14181A;
+}
+
+.web-tabs:hover a{
+    color:#B4AEA2;
 }
 
 .container2{

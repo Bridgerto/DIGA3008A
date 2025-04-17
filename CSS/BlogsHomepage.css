@@ -47,13 +47,6 @@
 }
 
 
-/*.blog-page{
-width: 50rem ;
-height: 50rem ;
-background: gold ;
-margin: 3rem;
-}*/
-
 .blog-tab{
  width: 400px;
  /*height: 200px;*/
@@ -82,17 +75,40 @@ margin: 3rem;
 .blog-info{
     padding: 15px;
     background: #F4F4F4;
-    color: orangered;
+    color:  #14181A;
+    
 }
 
 .blog-info .blog-week{
-    font-size: 30px;
-    color: hotpink;
+    font-size: 15px;
+    color:  #4B4F46;
+}
+
+.blog-info h1{
+    font-weight: bold;
+    font-style: italic;
+  
+}
+
+.blog-info button{
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    border-radius: 20px ;
+    border-color: #c2a163 ;
+    background: #B4AEA2 ;
+    margin: 30px 0 20px 140px;
 }
 
 .blog-info a{
-    text-decoration: none;
-    font-weight: bold;
-    font-style: italic;
-    color: aquamarine;
+    color:#14181A;
+    text-decoration: none ;
+}
+
+.blog-info button:hover{
+    background: #14181A ;
+}
+
+.blog-info button:hover a{
+    color: #B4AEA2;
 }
