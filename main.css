@@ -34,34 +34,36 @@ nav{
     font-weight: bold;
     line-height: 80px; /*space between the line*/
     margin: 30px 0px 400px;
-    padding: 0px 30px 200px;
+    padding: 0px 30px 0px;
     background: white;
 
 }
 
 nav ul{
     float: right;
-    margin-right: 40px;
+    margin: 20px 60px 60px 0px;
+
 }
 
 nav ul li{
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 
 nav ul li a {
     font-family: "GFS Didot", serif;
-    font-size: 20px;
+    font-size: 18px;
     color: #14181A;
     text-decoration: none;
 }
 
 a.active{
-    background:#f4f4f4;
+    background:#f4f4f476;
     color: #14181A; /*font colour*/
     padding: 10px 30px;
-    border-radius: 50px;
+    border-radius: 50px ;
+    border: 3px solid #f4f4f4;
 }
 
 
