@@ -1,0 +1,37 @@
+.page-header{
+   color:#14181A;
+   font-size: 90px;
+   text-align: center;
+   margin: 40px 0 0 50px;
+}
+
+button{
+    width: 350px;
+    height: 50px;
+    background: #B4AEA2 ;
+    border-radius: 20px;   
+    border-color: #c2a163 ;
+    text-align: center;
+    margin: 40px 20px 30px 20px;
+}
+
+button a{
+    text-decoration: none;
+    color: #14181A;
+    font-size: 20px;
+}
+
+
+button:hover{
+    background: #14181A; 
+}
+
+button:hover a{
+    color: #B4AEA2 ;
+}
+
+.webpage-accessibility{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
