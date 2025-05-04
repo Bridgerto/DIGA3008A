@@ -1,16 +1,14 @@
 .header{
     position: relative;
-    background-color: yellow;
     width: 100%;
     overflow: hidden;
+    
 }
 
 .img-container{
     display: flex;
     flex-direction: row;
-    border: 3px solid greenyellow;
     justify-content:space-between;
-    /*align-items: center;*/
     margin: 0px 0px 70px;
 
 }
@@ -36,29 +34,31 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 2px solid black;
-    background-color: blueviolet;
+    border: 2px solid #4B4F46;
+    background-color: #707767;
     padding: 2rem;
     text-align: center;
-    max-width: 500px;
+    width: 1200px;
+    max-height: 100px;
     border-radius: 8px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    color:  #efe9dd;
 }
 
 .title-container h1{
-    font-size: 5rem;
-    line-height: 0.2;
-    
+    font-size: 3rem;
+    line-height: 0.9;
+    margin: 0 0 40px 0;
 }
 
 .title-container .page-header{
     font-size: 0.95rem;
     margin: 1rem 0;
+  
 }
 
 
 .publication-info{
-    background-color: lightblue;
     text-align: center;
 
 }
