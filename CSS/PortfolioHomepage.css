@@ -1,0 +1,32 @@
+.container{
+    border: 3px solid lime ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+
+.art{
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  background-color: aquamarine;
+  width: 300px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+}
+
+.art:hover{
+     transform: scale(1.05);
+}
+
+.art img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
