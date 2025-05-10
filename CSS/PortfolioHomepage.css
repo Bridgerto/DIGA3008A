@@ -16,11 +16,17 @@
   background-color: aquamarine;
   width: 300px;
   transition: transform 0.3s ease;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+  box-shadow: 0 4px 15px rgba(0, 0,0,0.4);
+  border-radius: 20px;
 }
 
 .art:hover{
      transform: scale(1.05);
+     border-radius: 10px;
+}
+
+.art:hover img{
+     border-radius: 10px 10px 0 0;
 }
 
 .art img{
@@ -28,5 +34,7 @@
     height: 500px;
     object-fit: cover;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 20px 20px 0px 0px;
+
 }
 
