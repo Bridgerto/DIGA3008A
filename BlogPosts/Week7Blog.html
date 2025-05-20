@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>WEEK 7 BLOG:</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Week 4 blog shifts more into getting into depth with the design process"
+    />
+    <meta name="author" content="Reneilwe Thobejane" />
+
     <!--Styling-->
     <link rel="stylesheet" href="../normalise.css" />
     <link rel="stylesheet" href="../main.css" />
@@ -32,22 +38,14 @@
 
     <main class="page-content">
       <section class="header">
-        <section class="img-container">
-          <img
-            class="img1"
-            src="/Images/TemporaryBackground.jpg"
-            alt="Some image"
-          />
-          <img
-            class="img2"
-            src="/Images/TemporaryBackground.jpg"
-            alt="Some image"
-          />
-        </section>
+        <div class="box-container">
+          <div class="box-1"></div>
+          <div class="box-2"></div>
+        </div>
 
         <section class="title-container">
           <h1>Article title</h1>
-          <header class="page-header">Week 4 Blog</header>
+          <header class="page-header">Week 7 Blog</header>
         </section>
       </section>
 
@@ -62,14 +60,20 @@
         <p>
           Posted:
           <time class="dt-published" datetime="2025-03-11">
-            11<sup>th</sup>, March, 2025 - Johannesburg, South Africa</time
+            11<sup>th</sup> March, 2025</time
           >
-          <!--<p>class="p-location" >Johannesburg, South Africa</p>-->
-          >
+          <span class="p-location">Johannesburg, South Africa</span>
+          <br />
+
+          Last updated:
+          <time class="dt-updated" datetime="2025-03-11">
+            11<sup>th</sup> March, 2025
+          </time>
+          <span class="p-location">Johannesburg, South Africa</span>
         </p>
       </section>
 
-      <article>
+      <article class="h-entry" data-article-type="blog">
         <p>under construction</p>
       </article>
 
@@ -78,7 +82,7 @@
         <button><a href="./Week4Blog.html">PREVIOUS POST</a></button>
 
         <!--Next post-->
-        <button><a href="./Week1Blog.html">NEXT POST</a></button>
+        <button><a href="./Week9Blog.html">NEXT POST</a></button>
       </section>
     </main>
 

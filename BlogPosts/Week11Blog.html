@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>WEEK 11 BLOG:</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Week 4 blog shifts more into getting into depth with the design process"
+    />
+    <meta name="author" content="Reneilwe Thobejane" />
+
     <!--Styling-->
     <link rel="stylesheet" href="../normalise.css" />
     <link rel="stylesheet" href="../main.css" />
@@ -14,7 +20,6 @@
       <label for="logo" class="logo">RENEILWE THOBEJANE</label>
       <ul>
         <li><a href="../index.html">HOME</a></li>
-        <!--Problem-->
         <li>
           <a href="../BlogPosts/BlogsHomepage.html" class="active">BLOGS</a>
         </li>
@@ -32,26 +37,14 @@
 
     <main>
       <section class="header">
-        <section class="img-container">
-          <img
-            class="img1"
-            src="./Images/Blog1ArticleImg1.jpg"
-            alt="Some image"
-          />
-          <img
-            class="img2"
-            src="./Images/Blog1ArticleImg2.png"
-            alt="Some image"
-          />
-        </section>
+        <div class="box-container">
+          <div class="box-1"></div>
+          <div class="box-2"></div>
+        </div>
 
         <section class="title-container">
-          <h1>
-            From First Push to Flash: A Journey Through the Web’s Past and My
-            Digital Future.
-
-            <header class="page-header">Week 1 Blog</header>
-          </h1>
+          <h1>Article title</h1>
+          <header class="page-header">Week 11 Blog</header>
         </section>
       </section>
 
@@ -65,19 +58,21 @@
 
         <p>
           Posted:
-          <time class="dt-published" datetime="2025-02-18">
-            18<sup>th</sup> February, 2025 - Johannesburg, South Africa</time
+          <time class="dt-published" datetime="2025-04-21">
+            21<sup>st</sup> April, 2025</time
           >
-        </p>
-        <p>
-          Lasted updated:
-          <time class="dt-published" datetime="2025-05-04">
-            04<sup>th</sup> May, 2025 - Johannesburg, South Africa
+          <span class="p-location">Johannesburg, South Africa</span>
+          <br />
+
+          Last updated:
+          <time class="dt-updated" datetime="2025-05-05">
+            05<sup>th</sup> May, 2025
           </time>
+          <span class="p-location">Johannesburg, South Africa</span>
         </p>
       </section>
 
-      <article>
+      <article class="h-entry" data-article-type="blog">
         <p>
           In her article Making a Feminist Internet in Africa: Why the Internet
           Needs African Feminists and Feminisms, Sheena Magenya provides a

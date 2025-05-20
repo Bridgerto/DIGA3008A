@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>BLOGS - WEEK 4</title>
+    <title>WEEK 4 BLOG:</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
       content="Week 4 blog shifts more into getting into depth with the design process"
     />
+    <meta name="author" content="Reneilwe Thobejane" />
+
     <!--Styling-->
     <link rel="stylesheet" href="../normalise.css" />
     <link rel="stylesheet" href="../main.css" />
@@ -36,18 +38,10 @@
 
     <main class="page-content">
       <section class="header">
-        <section class="img-container">
-          <img
-            class="img1"
-            src="/Images/TemporaryBackground.jpg"
-            alt="Some image"
-          />
-          <img
-            class="img2"
-            src="/Images/TemporaryBackground.jpg"
-            alt="Some image"
-          />
-        </section>
+        <div class="box-container">
+          <div class="box-1"></div>
+          <div class="box-2"></div>
+        </div>
 
         <section class="title-container">
           <h1>Article title</h1>
@@ -66,14 +60,20 @@
         <p>
           Posted:
           <time class="dt-published" datetime="2025-03-11">
-            11<sup>th</sup>, March, 2025 - Johannesburg, South Africa</time
+            11<sup>th</sup> March, 2025</time
           >
-          <!--<p>class="p-location" >Johannesburg, South Africa</p>-->
-          >
+          <span class="p-location">Johannesburg, South Africa</span>
+          <br />
+
+          Last updated:
+          <time class="dt-updated" datetime="2025-03-11">
+            11<sup>th</sup> March, 2025
+          </time>
+          <span class="p-location">Johannesburg, South Africa</span>
         </p>
       </section>
 
-      <article>
+      <article class="h-entry" data-article-type="blog">
         <p>
           Suggestions: Post your work for the design section of your website,
           which you will submit next week. Work through the IxD Process and

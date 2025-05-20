@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>BLOGS - WEEK 1</title>
+    <title>
+      WEEK 1 BLOG: Setting up Github, reading of Tim-Bernes and History of Flash
+    </title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Week 1 Blog is content of the experience of setting up the website"
+      content="The week 1 blog contains content of my experience around setting up my first website, along with a reflection on the readings I did on Tim Bernes-les and the History of Flash."
     />
+    <meta name="author" content="Reneilwe Thobejane" />
+
     <!--Styling-->
     <link rel="stylesheet" href="../normalise.css" />
     <link rel="stylesheet" href="../main.css" />
@@ -19,7 +23,6 @@
       <label for="logo" class="logo">RENEILWE THOBEJANE</label>
       <ul>
         <li><a href="../index.html">HOME</a></li>
-        <!--Problem-->
         <li>
           <a href="../BlogPosts/BlogsHomepage.html" class="active">BLOGS</a>
         </li>
@@ -37,18 +40,10 @@
 
     <main class="page-content">
       <section class="header">
-        <section class="img-container">
-          <img
-            class="img1"
-            src="./Images/Blog1ArticleImg1.jpg"
-            alt="Some image"
-          />
-          <img
-            class="img2"
-            src="./Images/Blog1ArticleImg2.png"
-            alt="Some image"
-          />
-        </section>
+        <div class="box-container">
+          <div class="box-1"></div>
+          <div class="box-2"></div>
+        </div>
 
         <section class="title-container">
           <h1>
@@ -71,18 +66,20 @@
         <p>
           Posted:
           <time class="dt-published" datetime="2025-02-18">
-            18<sup>th</sup> February, 2025 - Johannesburg, South Africa</time
+            18<sup>th</sup> February, 2025</time
           >
-        </p>
-        <p>
+          <span class="p-location">Johannesburg, South Africa</span>
+          <br />
+
           Lasted updated:
-          <time class="dt-published" datetime="2025-05-04">
-            04<sup>th</sup> May, 2025 - Johannesburg, South Africa
-          </time>
+          <time class="dt-updated" datetime="2025-05-04">
+            04<sup>th</sup> May, 2025</time
+          >
+          <span class="p-location">Johannesburg, South Africa</span>
         </p>
       </section>
 
-      <article>
+      <article class="h-entry" data-article-type="blog">
         <h2>SECTION 1: Github Set-up</h2>
         <p>
           SETTING UP My Experience with setting up GitHub was paradoxically both
@@ -109,9 +106,9 @@
         <h2>SECTION 2: The World-Wide Web (1994) by Tim Berners-Lee et al.</h2>
         <p>
           I chose an article by Tim Bernes-Lee published in 1994, titled The
-          World Wide Web. This phenomenal written piece introduces the origin of
-          the WWW or as the article says, W3, to have been created at CERN to
-          solve the problem of information circulation amongst researchers. Here
+          World Wide Web. This written piece introduces the origin of the WWW or
+          as the article says, W3, to have been created at CERN to solve the
+          problem of information circulation amongst researchers. Here
           Bernes-Lee goes into details about the structures that were used to
           create W3: from HTML, HTTP, TCP, IP, URIs to SGML parsers.
         </p>
@@ -140,7 +137,7 @@
           evolution. Initially, FLASH was a FutureSplash Animator that was
           developed by FutureWave Software in the mid-1990s to be used as an
           animation tool for pen computing devices. In late 1996, Macromedia
-          bought FutureSplash and rebranded it as FLASH. Software s prevalence
+          bought FutureSplash and rebranded it as FLASH. Software's prevalence
           picked up when it introduced the feature to stream compressed video
           content directly within web browsers. This feature would become the
           foundational blocks of how YouTube came to be.
@@ -186,7 +183,7 @@
 
       <section class="web-tabs">
         <!--Previous post-->
-        <button><a href="./Week7Blog.html">PREVIOUS POST</a></button>
+        <button><a href="./Week13Blog.html">PREVIOUS POST</a></button>
 
         <!--Next post-->
         <button><a href="./Week2Blog.html">NEXT POST</a></button>

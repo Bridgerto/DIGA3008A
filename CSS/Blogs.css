@@ -5,7 +5,7 @@
     
 }
 
-.img-container{
+.box-container{
     display: flex;
     flex-direction: row;
     justify-content:space-between;
@@ -13,18 +13,20 @@
 
 }
 
-.img-container .img1{
+.box-container .box-1{
     width: 800px;
     height:600px;
+    background-color: pink;
     object-fit: cover;
 
 }
 
-.img-container .img2{
+.box-container .box-2{
     width: 800px;
     height:500px;
-    object-fit: cover;
     margin-top: 45px;
+    background-color: purple;
+    object-fit: cover;
 
 }
 
