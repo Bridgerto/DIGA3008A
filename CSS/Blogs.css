@@ -65,13 +65,20 @@
 
 }
 
-article{
+.e-content{
     margin: 50px 250px 70px;
     
 }
 
 .bibliography{
     margin: 50px 250px 70px;
+    text-decoration: none;
+
+}
+
+.bibliography .h-cite a{
+    text-decoration: none;
+    color: #14181A;
 }
 
 .web-tabs{
@@ -105,4 +112,19 @@ article{
     color: #B4AEA2
 }
 
+
+.interface-diagrams{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.interface-diagrams .diagram{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    /*flex-wrap: wrap;*/
+}
 
