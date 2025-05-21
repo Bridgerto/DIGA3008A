@@ -22,6 +22,7 @@
       src="https://kit.fontawesome.com/8d46d00593.js"
       crossorigin="anonymous"
     ></script>
+    <script src="main.js"></script>
     <!--<script src="./JavaScripts/index.js"></script>-->
 
     <!--Embedding Didot font-->
@@ -37,15 +38,15 @@
 
   <body>
     <!--content of the webpage goes here-->
-    <nav>
-      <input type="checkbox" id="check" />
-      <label for="check" class="burger-button"
-        ><i class="fa-solid fa-bars"></i
-      ></label>
-
+    <nav class="nav-bar">
       <label for="logo" class="logo">RENEILWE THOBEJANE</label>
-      <!--<img src="Images/TemporaryBackground.jpg" id="logo" />-->
-      <ul>
+
+      <div id="overlay"></div>
+      <div class="burger-button" id="burger">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+
+      <ul class="nav-links" id="navLinks">
         <li><a href="index.html" class="active">HOME </a></li>
         <li><a href="BlogPosts/BlogsHomepage.html">BLOGS</a></li>
         <li>
@@ -56,13 +57,10 @@
       </ul>
     </nav>
 
-    <!-- <a href = "#div-id"> jump link</a> -->
     <main class="page-content">
       <section class="container1">
         <section class="welcome-page">
           <header class="page-header">Reneilwe's website</header>
-          <!--<h1>Reneilwe's Website</h1>-->
-          <!--Logo of my website=-->
           <p>Welcome user to my website!!!</p>
           <button class="web-tabs">
             <a href="./ProfileSection/ProfilePage.html">Let's get started!</a>

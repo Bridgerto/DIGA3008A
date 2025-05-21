@@ -1,5 +1,6 @@
 /*DIDOT FONT*/
-.gfs-didot-regular {
+.gfs-didot-regular 
+{
     font-family: "GFS Didot", serif;
     font-weight: 400;
     font-style: normal;
@@ -8,7 +9,8 @@
 /*AVENIR FONT*/
   
 
-body{
+body
+{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  /* Body text: Avenir*/
     color:#14181A;
     background: #f4f4f4 ;/*url(Images/TemporaryBackground.jpg) no-repeat*/
@@ -20,14 +22,21 @@ body{
     scroll-behavior: smooth;
 }
 
-nav{
-    background: #B4AEA2 ;
+.nav-bar
+{
     /*backdrop-filter: blur(5px);*/
+    background: #B4AEA2 ;
     height: 60px;
     width: 100%; /*meaning full-lenght from left to right*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 1000;
 }
 
-.logo{
+.logo
+{
     color: #14181A;
     font-family: "GFS Didot", serif;
     font-size: 30px;
@@ -37,28 +46,31 @@ nav{
     padding: 0px 30px 0px;
   }
 
-nav ul{
-    float: right;
-    margin: 20px 60px 60px 0px;
-    
+.nav-links
+{
+    display: flex;
+    margin-right: 60px ;
+    transition: all 0.3s ease;  
+    z-index: 1001;
 }
 
-nav ul li{
-    display: inline-block;
+.nav-links li
+{
+    list-style: none;
     margin-right: 20px;
-   
-
 }
 
 
-nav ul li a {
+.nav-links li a 
+{
     font-family: "GFS Didot", serif;
     font-size: 18px;
     color: #14181A;
     text-decoration: none;
 }
 
-a.active{
+a.active
+{
     background:#f4f4f476;
     color: #14181A; /*font colour*/
     padding: 10px 30px;
@@ -67,65 +79,97 @@ a.active{
 }
 
 
-/*#logo{
-    width: 30px;
-    height: 30px;
-    margin: 0 0 5px 10px; 
-}*/
-
-.page-content{
+.page-content
+{
     flex: 1;
 }
 
-.page-footer{
+.page-footer
+{
     background: #B4AEA2;
     color: #14181A;
     align-items: flex-end;
     text-align: center;
 }
 
-.burger-button{
-    font-size: 30px;
-    color: #14181A;
-    float: right;
-    margin-right: 80px ;
-    line-height: 60px;
-    cursor: pointer;
+.burger-button
+{
     display: none;
+    cursor: pointer;
+    margin-right: 30px ;
+    font-size: 28px;
+    color: #14181A;
+
 }
 
-#check{
-    display: none;
+#navLinks 
+{
+  left: -120%; /* hidden */
+  transition: left 0.5s ease;
 }
+
+#navLinks.active 
+{
+  left: 0; /* visible */
+}
+
+#overlay
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(20, 24, 26, 0.5);
+    backdrop-filter: blur(3px);
+    z-index: 999;
+    display: none; 
+}
+
+#overlay.active 
+{
+  display: block;
+}
+
+body.noscroll 
+   {
+        overflow: hidden;
+   }
 
 @media (max-width: 1198px){
-    .burger-button{
+    .burger-button
+    {
         display: block;
     }
 
-    nav ul{
+    .nav-links
+    {
         position: fixed;
-        width: 100%;
-        background-color: rgba(255, 255, 255, 0.632);
+        right: -100%;
+        top: -16px;
         height: 100vh;
-        text-align: center;
-        top: 39px;
-        left: -120%;
-        transition: all 1s;
+        width: 250px;
+        background-color: rgba(255, 255, 255, 0.632);
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: right 0.3s;
     }
 
-    nav ul li{
+    .nav-links ul li
+    {
         display: block ;
-        padding: 30px 0;
+        padding: 30px 0px;
+       
     }
 
-    nav ul li a{
+    .nav-links ul li a
+    {
         font-size: 25px ;
         color: white;
         text-transform: uppercases;
     }
 
-    #check:checked ~ ul{
-        left: 0;
-    }
+   
+
 }
