@@ -4,13 +4,42 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
+    <!--Styling-->
+    <link rel="stylesheet" href="../normalise.css" />
+    <link rel="stylesheet" href="../main.css" />
+    <link rel="stylesheet" href="../CSS/Wireframes.css" />
+
+    <!--JavaScript-->
+    <script
+      src="https://kit.fontawesome.com/8d46d00593.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../main.js"></script>
+
+    <!--Embedding Didot font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <nav>
+    <nav class="nav-bar">
       <label for="logo" class="logo">RENEILWE THOBEJANE</label>
-      <ul>
+
+      <div id="overlay"></div>
+
+      <div class="burger-button" id="burger">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+
+      <ul class="nav-links" id="navLinks">
+        <div class="close-button" id="close">
+          <i class="fa-solid fa-xmark"></i>
+        </div>
         <li><a href="../index.html">HOME</a></li>
-        <!--Problem-->
         <li>
           <a href="../BlogPosts/BlogsHomepage.html" class="active">BLOGS</a>
         </li>
@@ -55,5 +84,9 @@
         <sup>TM</sup>--------------------------------
       </p>
     </footer>
+
+    <button id="toTopBtn" title="Go to top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
   </body>
 </html>

@@ -49,6 +49,7 @@ body
 .nav-links
 {
     display: flex;
+    align-items: center;
     margin-right: 60px ;
     transition: all 0.3s ease;  
     z-index: 1001;
@@ -57,7 +58,7 @@ body
 .nav-links li
 {
     list-style: none;
-    margin-right: 20px;
+    margin: 20px 20px;
 }
 
 
@@ -102,6 +103,17 @@ a.active
 
 }
 
+.close-button {
+  display: none;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 28px;
+  cursor: pointer;
+  color: #14181A;
+  z-index: 1002;
+}
+
 #navLinks 
 {
   left: -120%; /* hidden */
@@ -132,12 +144,24 @@ a.active
 }
 
 body.noscroll 
-   {
-        overflow: hidden;
-   }
+{
+    overflow: hidden;
+}
 
-@media (max-width: 1198px){
+@media (max-width: 1198px)
+{
     .burger-button
+    {
+        display: block;
+    }
+
+    .burger-button.hidden 
+    {
+        display: none;
+    }
+
+
+    .nav-links.active .close-button 
     {
         display: block;
     }
@@ -147,13 +171,14 @@ body.noscroll
         position: fixed;
         right: -100%;
         top: -16px;
+        width: 300px;
         height: 100vh;
-        width: 250px;
         background-color: rgba(255, 255, 255, 0.632);
         flex-direction: column;
         align-items: center;
         justify-content: center;
         transition: right 0.3s;
+        z-index: 1001;
     }
 
     .nav-links ul li
@@ -172,4 +197,28 @@ body.noscroll
 
    
 
+}
+
+/* Return-to-Top button */
+#toTopBtn 
+{
+  display: none; /* Hidden by default */
+  position: fixed;
+  bottom: 20%;
+  right: 20px;
+  z-index: 1002;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: opacity 0.3s ease;
+}
+
+#toTopBtn:hover 
+{
+  background-color: #555;
 }

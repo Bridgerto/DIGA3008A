@@ -19,6 +19,14 @@
       crossorigin="anonymous"
     ></script>
     <script src="../main.js"></script>
+
+    <!--Embedding Didot font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
@@ -26,11 +34,15 @@
       <label for="logo" class="logo">RENEILWE THOBEJANE</label>
 
       <div id="overlay"></div>
+
       <div class="burger-button" id="burger">
         <i class="fa-solid fa-bars"></i>
       </div>
 
       <ul class="nav-links" id="navLinks">
+        <div class="close-button" id="close">
+          <i class="fa-solid fa-xmark"></i>
+        </div>
         <li><a href="../index.html"> HOME </a></li>
         <li><a href="../BlogPosts/BlogsHomepage.html"> BLOGS </a></li>
         <li>
@@ -89,5 +101,9 @@
         <sup>TM</sup>--------------------------------
       </p>
     </footer>
+
+    <button id="toTopBtn" title="Go to top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
   </body>
 </html>
