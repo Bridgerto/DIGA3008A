@@ -18,7 +18,7 @@
     padding: 20px 0px;
 }
 
-.searchbar{
+.search-input{
     padding: 15px 300px;
     font-size: 17px;
     border-color: #c2a163;
@@ -27,7 +27,7 @@
 
 }
 
-.search-icon{
+.search-button{
     padding: 15px 10px;
     font-size: 17px;
     background-color: #4B4F46;
