@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () =>
         const title = tab.querySelector("h1").textContent.toLowerCase();
         if (title.includes(query)) 
         {
-            tab.style.display = "block"; // or "flex" depending on your layout
+            tab.style.display = "block";
         } 
         else 
         {

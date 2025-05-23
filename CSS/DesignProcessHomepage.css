@@ -25,8 +25,12 @@ section
     flex-direction: row;
     width: 90rem;
     height: 500px ;
+    border-radius: 30px;
     border: 3px solid pink;
-    margin: 0px 0px 40px 115px;  
+    margin: 0px 0px 40px 115px;
+    background-color: #14181A;
+    
+  
 }
 
 .design-section-container .block-colour
@@ -34,14 +38,18 @@ section
     width: 200px;
     height: auto-fit ;
     background-color: rgb(128, 0, 23);
-    right: 50px;
+    position: relative;
+    object-fit: cover;
+    
+
 }
 
 .design-section-container img
-{
-   width: 500px;
+{ 
+   width: 700px;
    height: auto-fit ; 
    right: 20px;
+   margin: 0 0 0 520px;
 }
 
 .section-info 
@@ -51,6 +59,7 @@ section
    height: 300px;
    z-index: 998;
    margin: 0 0 0 40px;
+   position: absolute;
 
 
 }
