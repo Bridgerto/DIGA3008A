@@ -14,9 +14,18 @@
 .intro-video video
 {
     position: absolute;
-    left: 2px;
-    height: fit-content;
+    top: 100px;
+    left: 500px;
+    width: 600px;
+    height: 600px;
+    border-radius: 200px 200px 0 0;
 }
+
+.intro-video p
+{
+    margin: 300px 0 0 500px;
+}
+
 
 
 .about-me
