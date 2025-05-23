@@ -55,8 +55,7 @@
 
 .title-container .page-header{
     font-size: 0.95rem;
-    margin: 1rem 0;
-  
+    margin: 1rem 0; 
 }
 
 
@@ -112,7 +111,7 @@
     color: #B4AEA2
 }
 
-
+/*Styling affects week 3 blog*/
 .interface-diagrams{
     display: flex;
     flex-direction: column;
@@ -128,3 +127,22 @@
     /*flex-wrap: wrap;*/
 }
 
+/*Styling affects week 7 blog*/
+.e-content .websites
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center ;
+}
+
+.e-content .websites figure img
+{
+  width: 700px;
+  height: 450px;
+  object-fit: contain;
+}
+
+.e-content .websites section
+{
+  margin: 90px 0 0 0;
+}
