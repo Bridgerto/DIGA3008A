@@ -1,0 +1,32 @@
+.intro-video
+{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    position: relative;
+}
+
+.intro-video img
+{
+    width: 700px;
+}
+
+.intro-video video
+{
+    position: absolute;
+    left: 2px;
+    height: fit-content;
+}
+
+
+.about-me
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.services
+{
+    display: flex;
+    flex-direction: row;
+}
