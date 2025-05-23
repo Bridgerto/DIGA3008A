@@ -1,0 +1,55 @@
+.page-header
+{
+    font-size: 60px ;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 30px 0;
+}
+
+
+.page-content
+{
+    margin: 50px 250px 70px;
+}
+
+.page-content .essay-info
+{
+    margin: 20px 0px;
+}
+
+.e-content
+{
+    margin: 60px 0;
+}
+
+.bibliography
+{
+    text-decoration: none;
+}
+
+.web-tabs{
+    margin-left: 450px;
+}
+
+.web-tabs button{
+    margin: 0px 100px 0px 30px;
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: #B4AEA2;
+}
+
+.web-tabs a{
+    color: #14181A;
+    text-decoration: none;
+
+}
+
+.web-tabs button:hover{
+    background-color: #14181A;
+
+}
+
+.web-tabs button:hover a{
+    color: #B4AEA2
+}

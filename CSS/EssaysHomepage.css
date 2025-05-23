@@ -13,16 +13,16 @@
 
 .essay-title
 {
-  display: flex;
-  flex-direction: row; 
-  margin: 0 0 40px 0;
-  background-color: rgba(170, 137, 97, 0.493);
+   display: flex;
+   flex-direction: row; 
+   margin: 0 0 40px 0;
+   background-color: rgba(170, 137, 97, 0.493);
 
 }
 
 .img img
 {
-   margin: 50px 260px 50px 250px;
+   margin: 50px 200px 50px 280px;
    object-fit: cover;
    width: 500px;
    height: 600px;
@@ -45,4 +45,20 @@
     border-color: #c2a163 ;
     background: #B4AEA2 ;
     margin: 100px 0 0px 200px;
+}
+
+.essay-synopsis button a
+{
+    text-decoration: none;
+    color:#14181A;
+}
+
+.essay-synopsis button:hover
+{  
+    background-color: #14181A; ;
+}
+
+.essay-synopsis button:hover a
+{  
+    color: #B4AEA2; ;
 }
