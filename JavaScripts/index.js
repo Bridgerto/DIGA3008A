@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     window.addEventListener("scroll", () => {
         const scrollY = window.scrollY;
 
-        if (scrollY > 100) { // Adjust this value to control when logo appears
+        if (scrollY > 100) { // Remember Reneilwe, I can adjust this value to control when logo appears
             logo.classList.add("show");
             pageHeader.classList.add("hidden");
         } else {

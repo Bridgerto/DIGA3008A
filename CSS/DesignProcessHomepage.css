@@ -1,7 +1,3 @@
-.page-content{
-    border: 3px solid green;
-}
-
 .page-header{
     font-family: "GFS Didot", serif;
     text-align: center;
@@ -26,10 +22,11 @@ section
     width: 1400px;
     height: 500px ;
     border-radius: 70px;
-    border: solid rgb(241, 240, 232);
+    border: solid #b1a292;
     margin: 0px 0px 40px 140px;
     box-shadow: 3px 15px 10px rgba(0,0,0,0.4); 
     position: relative;
+    background-color: #c8b8a6;
 
 } 
 
@@ -44,7 +41,7 @@ section
 {
     width: 200px;
     height: auto-fit ;
-    background-color: rgb(128, 0, 23);
+    background-color: #3f2c17;;
     border-radius: 0 70px 70px 0 ;
 }
 
@@ -58,11 +55,10 @@ section
 
 .section-info 
 {
-   background-color: aqua;
-   width: 500px;
-   height: 250px;
+   background-color: rgba(255, 255, 255, 0.871);
+   width: 700px;
+   height: 300px;
    z-index: 998;
-   margin: 0 0 0 40px;
    position: absolute;
    top: 100px;
    left: 150px;
