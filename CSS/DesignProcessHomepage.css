@@ -23,43 +23,68 @@ section
 { 
     display: flex;
     flex-direction: row;
-    width: 90rem;
+    width: 1400px;
     height: 500px ;
-    border-radius: 30px;
-    border: 3px solid pink;
-    margin: 0px 0px 40px 115px;
-    background-color: #14181A;
-    
-  
-}
+    border-radius: 70px;
+    border: solid rgb(241, 240, 232);
+    margin: 0px 0px 40px 140px;
+    box-shadow: 3px 15px 10px rgba(0,0,0,0.4); 
+    position: relative;
+
+} 
+
+.design-section-container .img-container
+{
+    display: flex;
+    flex-direction: row;
+    border-radius: 40px ;
+} 
 
 .design-section-container .block-colour
 {
     width: 200px;
     height: auto-fit ;
     background-color: rgb(128, 0, 23);
-    position: relative;
-    object-fit: cover;
-    
-
+    border-radius: 0 70px 70px 0 ;
 }
 
 .design-section-container img
 { 
-   width: 700px;
+   width: 709px;
    height: auto-fit ; 
-   right: 20px;
-   margin: 0 0 0 520px;
+   margin: 0 0 0 482px;
 }
+
 
 .section-info 
 {
    background-color: aqua;
-   width: 300px;
-   height: 300px;
+   width: 500px;
+   height: 250px;
    z-index: 998;
    margin: 0 0 0 40px;
    position: absolute;
+   top: 100px;
+   left: 150px;
+}
 
+.design-section-container:hover
+{
+    box-shadow: 0 20px 30px rgba(0,0,0,0.4); 
+    border-radius: 30px ;
+}
 
+.design-section-container:hover img
+{ 
+    margin: 0 0 0 483px;
+}
+
+.design-section-container:hover .block-colour
+{ 
+    border-radius: 0 30px 30px 0 ;
+}
+
+.design-section-container .section-title
+{
+    font-size: 50px;
 }

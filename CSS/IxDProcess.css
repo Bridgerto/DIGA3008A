@@ -3,7 +3,18 @@
     font-size: 90px;
     text-align: center;
     margin: 40px 0 0 50px;
- }
+ } 
+
+.page-content
+{
+    margin: 50px 250px 70px ;
+}
+
+.page-content img
+{
+    width: 1200px;
+    height: 700px;
+}
 
 button{
     width: 350px;
