@@ -4,7 +4,7 @@
     font-family: "GFS Didot", serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
 
 /*AVENIR FONT*/
   
@@ -12,6 +12,7 @@
 body
 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  /* Body text: Avenir*/
+    font-size: 18px;
     color:#14181A;
     background: #f4f4f4 ;/*url(Images/TemporaryBackground.jpg) no-repeat*/
     background-size: cover;
@@ -91,6 +92,14 @@ a.active
     color: #14181A;
     align-items: flex-end;
     text-align: center;
+    
+}
+
+.page-footer p a
+{
+   text-decoration: none;
+   color: #14181A;
+   margin-right: 40px;
 }
 
 

@@ -8,18 +8,35 @@
 
 }
 
+.container1 header
+{
+    font-size: 70px;
+    font-family: "GFS Didot", serif;
+    text-align: center;
+}
+
+.webpage-des
+{
+    font-size: 20px;
+}
+
+
+
 .profile-content
 {
     display: flex;
     flex-direction: column;
-    margin: 0 100px 0 100px;
+    background-color: #4B4F46;
+    color: #B4AEA2;
+    padding: 50px 0;
+
 }
 
 .about-me
 {
     display: flex;
     flex-direction: row ;
-    margin-bottom: 100px;
+    margin: 0 100px 100px 100px;
 }
 
 .about-me img
@@ -30,6 +47,10 @@
     margin-right: 90px;
 }
 
+.about-me p
+{
+    margin-top: 190px;
+}
 
 .skills
 {
@@ -39,6 +60,57 @@
 
 .skills figure img
 {
-   width: 200px;  
-   height: 200px;
+   width: 300px;  
+   height: 300px;
+   border-radius: 200px 200px 0 0;
+}
+
+.skills figcaption
+{
+    font-size: 20px;
+    font-style: bold;
+    text-align: center;
+}
+
+.container2
+{
+    margin: 0 100px 100px 100px;
+
+}
+
+.container2 p
+{
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+
+}
+
+
+.port-button
+{
+    width: 150px;
+    height: 55px;
+    text-align: center;
+    border-radius: 20px ;
+    border-color: #c2a163 ;
+    background: #B4AEA2 ;
+    margin: 30px 0 20px 800px;
+}
+
+
+.port-button a
+{
+    text-decoration: none;
+    color: #14181A;
+}
+
+.port-button:hover
+{
+    background: #14181A ;
+}
+
+.port-button:hover a
+{
+    color: #B4AEA2;
 }
