@@ -10,7 +10,7 @@
     /*background: url(/Images/NeutralBackground02.jpg);*/
     /*background-color: #dfd4c1;*/
     background-color: #14181A;
-    background-size: cover;
+    background-size: cover; 
     height: 100vh;
     padding-top: 120px;
 }

@@ -100,6 +100,9 @@ a.active
    text-decoration: none;
    color: #14181A;
    margin-right: 40px;
+   background-color: rgba(228, 211, 170, 0.899);
+   padding: 5px;
+   border-radius: 10px;
 }
 
 
